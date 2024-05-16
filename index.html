@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="w-screen min-h-screen flex justify-center items-center">
+      <div
+        class="flex flex-col md:flex-row gap-6 bg-white max-w-5xl w-full mx-auto p-10 rounded-xl shadow-2xl"
+      >
+        <div
+          class="w-full md:w-1/2 bg-[#E2ECFF] flex justify-center item rounded-md"
+        >
+          <div
+            class="flex flex-col justify-center items-center text-center p-10"
+          >
+            <img class="rounded-full w-20" src="./0163.jpg_wh1200.jpg" alt="" />
+            <h1 class="text-2xl font-bold">
+              Let us help you run your own platform
+            </h1>
+            <p class="text-sm text-gray-500">
+              Our registration process is quicker than other edtech platform
+            </p>
+          </div>
+        </div>
+        <div class="w-full md:w-1/2 py-10">
+          <h1 class="text-2xl font-bold">Get Started</h1>
+          <p class="text-gray-500 text-sm pb-10">Create your account now!</p>
+
+          <form class="flex flex-col gap-2" action="#">
+            <div>
+              <label class="py-2 text-gray-500 block" for="fname"
+                >Full Name</label
+              >
+              <input
+                type="text"
+                name="fname"
+                id="fname"
+                class="w-full border border-gray-500 rounded-md px-4 py-2 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label class="py-2 text-gray-500 block" for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="w-full border border-gray-500 rounded-md px-4 py-2 focus:outline-none"
+              />
+            </div>
+            <div>
+              <label class="py-2 text-gray-500 block" for="password"
+                >Password</label
+              >
+              <input
+                type="password"
+                name="password"
+                id="password"
+                class="w-full border border-gray-500 rounded-md px-4 py-2 focus:outline-none"
+              />
+            </div>
+            <button
+              class="bg-[#0082DF] w-full text-white rounded-md py-4"
+              type="submit"
+            >
+              Sign Up
+            </button>
+          </form>
+
+          <p class="text-center py-4">
+            Already a member?<span class="text-[#0082DF]">Sign in</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
